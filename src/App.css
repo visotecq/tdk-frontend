@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center;  
 }
 
 .App-logo {
@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -21,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: E2DFD0;
 }
 
 .App-link {
@@ -34,5 +35,85 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+.social-media {
+  display: inline-block; }
+  .social-media p a {
+    width: 34px;
+    height: 34px;
+    background: #4d4d4d;
+    margin-right: 1px; }
+    .social-media p a span {
+      color: #FFF5E0; }
+      .social-media p a:hover,.phone a:hover, nav a:hover {
+      background: #8DECB4;
+      border-color: #8DECB4; }
+      .social-media p a:hover span {
+        color: #8DECB4; }
+
+.phone a {
+  color: #E2DFD0;
+  font-size: 12px; }
+   
+  
+.dropdown-menu,.menu-header-back{
+  background: #141E46  !important; 
+}
+
+
+a {
+  text-decoration: none !important;  
+  color: #FFF5E0 !important;
+}
+
+.text-right{
+  text-align: right !important;
+}
+
+.text-centre{
+  text-align: center !important;
+}
+
+.text-color-biege{
+  color: #FFF5E0;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #FFF5E0 !important;
+}
+
+.menu-footer-back {
+  background-color: #141E46;
+}
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  color: #FFF5E0 ; }
+a:hover, a:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.logo-hover{
+  background-color: transparent !important;
+}
+
+.filter-link a{
+  text-decoration: none !important;  
+  color: #000000 !important;
+}
+
+@media only screen and (max-width: 1026px) {
+  .no-divider {
+          display: none !important;
+    }
+
+  .cart-max-height,.filter-max-height{
+    height: 190px;
+    max-height: 190px;;
   }
 }
