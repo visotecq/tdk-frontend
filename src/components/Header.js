@@ -12,6 +12,9 @@ function Header() {
         <Col>
           <p className="mb-0 phone">   <FontAwesomeIcon icon={faMobileScreen} style={{ background:'whitesmoke' }} /><a href="#phone">+91 73025 36237</a></p>
         </Col>
+        <Col className='display-none'>
+          <h1>THE DELIGHT KINGDOM</h1>
+        </Col>
         <Col className='d-flex justify-content-end'>
           <div className="social-media">
             <p className="mb-0 d-flex">

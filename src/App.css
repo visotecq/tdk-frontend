@@ -107,10 +107,14 @@ a:hover, a:focus {
   color: #000000 !important;
 }
 
-@media only screen and (max-width: 1026px) {
+@media only screen and (max-width: 1280px) {
   .no-divider {
           display: none !important;
     }
+
+  .display-none{
+    display: none;
+  }
 
   .cart-max-height,.filter-max-height{
     height: 190px;

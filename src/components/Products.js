@@ -4,10 +4,10 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faS, faStar} from '@fortawesome/free-solid-svg-icons';import Badge from 'react-bootstrap/Badge';
+import { faStar} from '@fortawesome/free-solid-svg-icons';import Badge from 'react-bootstrap/Badge';
 
 
-const baseURL = "http://127.0.0.1:8000/api/products/";
+const baseURL = "http://127.0.0.1:8080/api/products/";
 
 function Products(){
     const [items, setItems] = React.useState(null);
@@ -17,7 +17,6 @@ function Products(){
         setItems(response.data);
       });
     }, []);
-  
     if (!items) 
       return null;
   
