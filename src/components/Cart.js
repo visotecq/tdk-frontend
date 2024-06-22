@@ -10,17 +10,13 @@ function Cart(){
         <Col className="m-0 p-0 menu-header-back text-center rounded ">
                     <h5 >Cart</h5>
               
-                    <ListGroup variant="flush" className="overflow-auto cart-max-height">
-                        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-                        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                        <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-                        <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-                        <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-                        <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-                        <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+                    <ListGroup variant="flush" className="overflow-auto cart-max-height text-left">
+                        <ListGroup.Item>1 x Agri Drone : Rs.130000/-</ListGroup.Item>
+                        <ListGroup.Item>2 x Brahma F4 : Rs. 4999/-</ListGroup.Item>
+                        <ListGroup.Item>3 x 3D Mapping : Rs.50000/-</ListGroup.Item>
                     </ListGroup>
                     
-            
+                    <h5 >Total : Rs.30000/- only</h5>
         </Col>
        
     </Row>

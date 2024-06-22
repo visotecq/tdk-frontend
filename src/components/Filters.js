@@ -31,39 +31,40 @@ function Filters(){
                                     </NavLink>
                                 </ListGroup.Item>                                
                                 <ListGroup.Item>
-                                    <NavLink href="#cakes">
-                                        Cakes 
+                                    <NavLink href="#md">
+                                        Military Drone 
                                     </NavLink>
                                 </ListGroup.Item> 
-                                <ListGroup.Item>Breads </ListGroup.Item> 
-                                <ListGroup.Item>Buns </ListGroup.Item> 
-                                <ListGroup.Item>Pizza Base </ListGroup.Item> 
+                                <ListGroup.Item>Photography Drone </ListGroup.Item> 
+                                <ListGroup.Item>Modelling Drone </ListGroup.Item> 
+                                <ListGroup.Item>Agri Drone </ListGroup.Item> 
                                 </ListGroup>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1" >
                             <Accordion.Header>
-                                    Oil
+                                    Drone Components
                             </Accordion.Header>
                             <Accordion.Body>
                                 <ListGroup variant="flush" >
-                                    <ListGroup.Item>Amul Butter Made</ListGroup.Item>
-                                    <ListGroup.Item>Rice Bran Oil Made</ListGroup.Item>
+                                    <ListGroup.Item>Motors</ListGroup.Item>
+                                    <ListGroup.Item>Rotors</ListGroup.Item>
+                                    <ListGroup.Item>Flight Controllers</ListGroup.Item>
                                 </ListGroup>
                             </Accordion.Body>
                         </Accordion.Item>
 
                         <Accordion.Item eventKey="2" >
                             <Accordion.Header>
-                                    Healthy
+                                    Battery Packs
                             </Accordion.Header>
                             <Accordion.Body>
                                 <ListGroup variant="flush" >
-                                    <ListGroup.Item>Gluten Free</ListGroup.Item>
-                                    <ListGroup.Item>Dairy Free</ListGroup.Item>
-                                    <ListGroup.Item>Wheat Free </ListGroup.Item>                                 
-                                    <ListGroup.Item>Millets Only</ListGroup.Item>
-                                    <ListGroup.Item>Multigrain </ListGroup.Item>
+                                    <ListGroup.Item>3s Packs</ListGroup.Item>
+                                    <ListGroup.Item>4s packs</ListGroup.Item>
+                                    <ListGroup.Item>5s Packs</ListGroup.Item>                                 
+                                    <ListGroup.Item>6s Packs</ListGroup.Item>
+                                    <ListGroup.Item>Tx Rx Lipo </ListGroup.Item>
                                 </ListGroup>
                             </Accordion.Body>
                         </Accordion.Item>

@@ -14,7 +14,7 @@ function Footer (){
                                 <Nav.Link href="/" >Home</Nav.Link>
                                 <Nav.Link href="link-1" >About Us</Nav.Link>
                                 <Nav.Link href="link-2" >Products</Nav.Link>
-                                <Nav.Link href="link-2" >Packages</Nav.Link>
+                                <Nav.Link href="link-2" >Services</Nav.Link>
                                 
                             </Nav>
 
@@ -22,8 +22,8 @@ function Footer (){
                     </Col>
                     <Col sm={true}>
                         
-                            <Image src='/images/logo_footer.png' height={150} width={150} className='rounded mx-auto d-block '/>
-                            <p className='h4' style={{ color:'#E2DFD0' }}><strong>Always Good</strong>  </p>
+                            <Image src='/images/logo_footer_viso.png' height={150} width={200} className='rounded mx-auto d-block '/>
+                            <p className='h4' style={{ color:'#E2DFD0',textTransform:'uppercase' }}><strong>vison and technology</strong>  </p>
                         
                     </Col>
                     <Col sm={true} >

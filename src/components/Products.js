@@ -24,8 +24,8 @@ function Products(){
      
     
         <Col sm={true} key={item.id} className="pb-2 d-flex justify-content-center" >
-          <Card style={{ width: '18rem', borderColor:'#8DECB4',borderStyle: 'groove',borderWidth:'2px'  }} >
-              <Card.Img variant="top" src={item.image_url}  style={{borderColor:'#8DECB4',borderStyle: 'solid',borderWidth:'2px'  }}  />
+          <Card style={{ width: '18rem', borderRadius:'0 !important'  }} >
+              <Card.Img variant="top" src={item.image_url}  style={{borderRadius:'0'  }} height={'200px'} />
               <Card.Body style={{ backgroundColor:'#141E46' }}>
                 <Card.Title >
                     <h6>{item.name}
@@ -42,13 +42,14 @@ function Products(){
                     <label>{item.description}</label><br />
                     <label>
                       <strong>
-                          Rs.100/- 
+                          Rs.{item.price}/- 
                       </strong>
-                      <Badge bg="success">10% OFF</Badge>
+                      <Badge bg="success">{item.discount}% OFF</Badge>
                     </label>
                 </Card.Text>
                
-                <Button style={{ backgroundColor:"#F4CE14" , border:'solid', borderColor:'#FFF5E0' }}>Buy</Button>
+                <Button style={{ border:'solid', borderColor:'#ffffff', borderRadius:'0' }}>Buy Now</Button>
+                <Button className="btn-warning" style={{ border:'solid', borderColor:'#ffffff', borderRadius:'0', marginLeft: '50px'}}>Add to Cart</Button>
               </Card.Body>
           </Card>
         </Col>

@@ -4,16 +4,17 @@ import Container from 'react-bootstrap/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookSquare,  faInstagramSquare, faTwitterSquare,  faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 import {faMobileScreen} from '@fortawesome/free-solid-svg-icons';
+import { Image } from 'react-bootstrap';
 
 function Header() {
     return (
 <Container className='' fixed="top" fluid>
     <Row className='justify-content-between menu-header-back'>
         <Col>
-          <p className="mb-0 phone">   <FontAwesomeIcon icon={faMobileScreen} style={{ background:'whitesmoke' }} /><a href="#phone">+91 73025 36237</a></p>
+          <p className="mb-0 phone">   <FontAwesomeIcon icon={faMobileScreen} style={{ background:'whitesmoke' }} /><a href="#phone">+91 7017312962</a></p>
         </Col>
-        <Col className='display-none'>
-          <h1>THE DELIGHT KINGDOM</h1>
+        <Col className='display-none text-centre' >
+        <h4> VISOTECQ</h4>
         </Col>
         <Col className='d-flex justify-content-end'>
           <div className="social-media">

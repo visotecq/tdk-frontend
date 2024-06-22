@@ -16,8 +16,8 @@ function Menu() {
       <Container fluid className='p-2 m-0' >        
         <Navbar.Brand href="#" className='logo-hover'>
         <img
-              src="/images/logo.png"
-              width="30"
+              src="/images/logo_footer_viso.png"
+              width="40"
               height="30"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
@@ -35,7 +35,7 @@ function Menu() {
             <Nav.Link disabled className='no-divider'>|</Nav.Link>
             <Nav.Link href="#products">Products</Nav.Link>
             <Nav.Link disabled className='no-divider'>|</Nav.Link>
-            <Nav.Link href="#packages">Packages</Nav.Link>
+            <Nav.Link href="#services">Services</Nav.Link>
             <Nav.Link disabled className='no-divider'>|</Nav.Link>
             <NavDropdown title="Miscellaneous" id="navbarScrollingDropdown" >
               <NavDropdown.Item href="#help">Help</NavDropdown.Item>
@@ -58,7 +58,7 @@ function Menu() {
                 aria-label="Search"
               />
              
-              <Button style={{ color:'#E2DFD0', backgroundColor:'#8DECB4'}} id="search">
+              <Button style={{backgroundColor:'#141E46' }} id="search">
               <FontAwesomeIcon icon={faSearch} />
               </Button>
             </InputGroup>
