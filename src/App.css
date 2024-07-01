@@ -49,22 +49,26 @@
     .social-media p a span {
       color: #FFF5E0; }
       .social-media p a:hover,.phone a:hover, nav a:hover {
-      background: #8DECB4;
-      border-color: #8DECB4; }
+      background: #FFF5E0;
+      border-color: #000000;
+      opacity: 80%;
+      border-radius: 4px;
+      color: #000 !important;  
+  }
       .social-media p a:hover span {
-        color: #8DECB4; }
+        color: #FFF5E0; }
 
 .phone a {
   color: #E2DFD0;
   font-size: 12px; }
    
   
-.dropdown-menu,.menu-header-back{
+.dropdown-menu,.menu-header-back,.cart-footer,.singin-modal-back{
   background: #141E46  !important; 
 }
 
 
-a {
+a,p {
   text-decoration: none !important;  
   color: #FFF5E0 !important;
 }
@@ -109,6 +113,11 @@ a:hover, a:focus {
   text-decoration: none !important;  
   color: #000000 !important;
 }
+
+.font-face-copperplate {
+  font-family: 'CopperplateCC-Bold';
+}
+
 
 @media only screen and (max-width: 1280px) {
   .no-divider {

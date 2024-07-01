@@ -1,27 +1,51 @@
-import Col from "react-bootstrap/esm/Col"
-import Row from "react-bootstrap/esm/Row";
-import Container from "react-bootstrap/esm/Container";
-import ListGroup from 'react-bootstrap/ListGroup';
+import Table from 'react-bootstrap/Table';
+import Button from 'react-bootstrap/Button';
 function Cart(){
+
+
     return(
-    
-    <Container fluid >
-    <Row>
-        <Col className="m-0 p-0 menu-header-back text-center rounded ">
-                    <h5 >Cart</h5>
-              
-                    <ListGroup variant="flush" className="overflow-auto cart-max-height text-left">
-                        <ListGroup.Item>1 x Agri Drone : Rs.130000/-</ListGroup.Item>
-                        <ListGroup.Item>2 x Brahma F4 : Rs. 4999/-</ListGroup.Item>
-                        <ListGroup.Item>3 x 3D Mapping : Rs.50000/-</ListGroup.Item>
-                    </ListGroup>
-                    
-                    <h5 >Total : Rs.30000/- only</h5>
-        </Col>
-       
-    </Row>
-</Container>
-    
+      <div>
+        <Table striped bordered hover>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Item Name</th>
+            <th>Qty</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Agri Drone</td>
+            <td>1</td>
+            <td>Rs.130000/-</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Brahma F4</td>
+            <td>2</td>
+            <td>Rs. 4999/-</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td >3D Mapping</td>
+            <td >3</td>
+            <td>Rs.50000/-</td>
+          </tr>
+        
+         
+        </tbody>
+        <tfoot className='text-center'>
+            <tr >
+              <td colSpan={2} className='cart-footer'><h5>Total</h5></td>
+              <td colSpan={2} className='cart-footer'><h5>Rs.30000/-</h5></td>
+            </tr>
+          </tfoot>
+      </Table> 
+
+      <Button variant="success" style={{ float:'right' }}>Checkout</Button>
+      </div>
     );
 }
 

@@ -12,3 +12,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "CopperplateCC-Bold";
+  src: local("CopperplateCC-Bold"),
+   url('./fonts/CopperplateCC-Bold.ttf') format("truetype");
+  font-weight: bold;
+ }
+ 

@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar} from '@fortawesome/free-solid-svg-icons';import Badge from 'react-bootstrap/Badge';
+import { CardFooter } from "react-bootstrap";
 
 
 const baseURL = "http://127.0.0.1:8080/api/products/";
@@ -47,10 +48,13 @@ function Products(){
                       <Badge bg="success">{item.discount}% OFF</Badge>
                     </label>
                 </Card.Text>
-               
-                <Button style={{ border:'solid', borderColor:'#ffffff', borderRadius:'0' }}>Buy Now</Button>
-                <Button className="btn-warning" style={{ border:'solid', borderColor:'#ffffff', borderRadius:'0', marginLeft: '50px'}}>Add to Cart</Button>
+                
               </Card.Body>
+              <CardFooter>
+                <Button style={{ borderRadius:'4px' }}>Buy Now</Button>
+                <Button className="btn-warning" style={{ borderRadius:'4px', marginLeft: '50px'}}>Add to Cart</Button>
+               
+                </CardFooter>
           </Card>
         </Col>
     

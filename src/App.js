@@ -9,7 +9,6 @@ import Products from './components/Products';
 import Header from './components/Header';
 import Col from 'react-bootstrap/Col';
 import Filters from './components/Filters';
-import Cart from './components/Cart';
 function App() {
  
   return (
@@ -28,14 +27,14 @@ function App() {
                   <Col  xs={12}  md={4} lg={2} className='pb-2'>
                     <Filters />
                   </Col>
-                  <Col xs={12}   md={4} lg={8}  >   
+                  <Col xs={12}   md={6} lg={10}  >   
                     <Row>                 
                        <Products />
                     </Row>
                   </Col>
-                  <Col  xs={12}   md={4} lg={2}  className='pb-2'>
+                 {/*  <Col  xs={12}   md={4} lg={2}  className='pb-2'>
                     <Cart />
-                  </Col>
+                  </Col> */}
                 </Row>
               </Container>              
             </div>
