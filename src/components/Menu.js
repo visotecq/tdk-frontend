@@ -50,9 +50,9 @@ function Menu() {
           >
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link disabled className='no-divider'>|</Nav.Link>
-            <Nav.Link href="#products">Products</Nav.Link>
+            <Nav.Link href="/products" >Products</Nav.Link>
             <Nav.Link disabled className='no-divider'>|</Nav.Link>
-            <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link disabled className='no-divider'>|</Nav.Link>
             <Nav.Link href="#blog">Blog</Nav.Link>
             <Nav.Link disabled className='no-divider'>|</Nav.Link>

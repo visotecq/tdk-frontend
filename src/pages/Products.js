@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar} from '@fortawesome/free-solid-svg-icons';import Badge from 'react-bootstrap/Badge';
+import { faStar} from '@fortawesome/free-solid-svg-icons';
+import Badge from 'react-bootstrap/Badge';
 import { CardFooter } from "react-bootstrap";
 
 

@@ -1,11 +1,13 @@
 import './App.css';
+import {  Routes, Route } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Menu from './components/Menu';
 import Footer from './components/Footer';
 import Stack from 'react-bootstrap/Stack';
-import Products from './components/Products';
+import Products from './pages/Products';
+import Services from './pages/Services';
 import Header from './components/Header';
 import Col from 'react-bootstrap/Col';
 import Filters from './components/Filters';
@@ -29,7 +31,14 @@ function App() {
                   </Col>
                   <Col xs={12}   md={6} lg={10}  >   
                     <Row>                 
-                       <Products />
+                       
+                      
+
+                       <Routes>
+                          <Route path="/products" element={<Products />} />
+                          <Route path="/services" element={ <Services />} />
+                      </Routes>
+
                     </Row>
                   </Col>
                  {/*  <Col  xs={12}   md={4} lg={2}  className='pb-2'>
