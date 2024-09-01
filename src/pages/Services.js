@@ -40,7 +40,7 @@ function Services(){
                 </Card.Title>
              
                 
-                <Card.Text className="text-color-biege">
+              {/*   <Card.Text className="text-color-biege">
                     <label>{item.description}</label><br />
                     <label>
                       <strong>
@@ -48,13 +48,13 @@ function Services(){
                       </strong>
                       <Badge bg="success">{item.discount}% OFF</Badge>
                     </label>
-                </Card.Text>
+                </Card.Text> */}
                 
               </Card.Body>
-              <CardFooter>
-                <Button style={{ borderRadius:'4px' }}>Buy Now</Button>
-                <Button className="btn-warning" style={{ borderRadius:'4px', marginLeft: '50px'}}>Add to Cart</Button>
-               
+              <CardFooter className="text-centre">
+                <Button style={{ borderRadius:'4px' }}>ENQUIRE NOW</Button>
+                {/* <Button className="btn-warning" style={{ borderRadius:'4px', marginLeft: '50px'}}>Add to Cart</Button>
+                */}
                 </CardFooter>
           </Card>
         </Col>

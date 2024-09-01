@@ -24,7 +24,7 @@ function App() {
               </Container> 
             </div>
             <div className="">
-            <Container fluid >
+            <Container fluid className='min-height-420'>
                 <Row>
                   <Col  xs={12}  md={4} lg={2} className='pb-2'>
                     <Filters />

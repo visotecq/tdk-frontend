@@ -33,7 +33,7 @@ function Footer (){
                     <Col sm={true}>
                         
                             <Image src='/images/logo_footer_viso.png' height={150} width={200} className='rounded mx-auto d-block '/>
-                            <p className='h4 font-face-copperplate' style={{ color:'#E2DFD0',textTransform:'uppercase' }}><strong>vison and technology</strong>  </p>
+                            <p className='h4 font-face-copperplate' style={{ color:'#E2DFD0',textTransform:'uppercase' }}><strong>vision and technology</strong>  </p>
                         
                     </Col>
                     <Col sm={true} >
