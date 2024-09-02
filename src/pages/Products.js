@@ -9,7 +9,7 @@ import Badge from 'react-bootstrap/Badge';
 import { CardFooter } from "react-bootstrap";
 
 
-const baseURL = "http://52.205.252.41:8090/api/products/";
+const baseURL = "http://ec2-44-204-194-91.compute-1.amazonaws.com:8080/api/products/";
 
 function Products(){
     const [items, setItems] = React.useState(null);
